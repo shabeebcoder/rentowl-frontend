@@ -1,0 +1,111 @@
+.sign-up-page{
+    width: 100%;
+    height: 100vh;
+    
+}
+
+*{
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.aut-form label {
+    font-size: 14px;
+    font-weight: 300;
+  
+}
+
+.aut-form input{
+    border: #666666 0.5px solid ;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 10px 10px;
+    border-radius: 8px;
+    
+}
+
+.form-btn{
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 12px;
+    border-radius: 30px;
+    overflow: hidden;
+
+}
+
+
+.form-btn:hover{
+    background-color:#F7BF12 ;
+    transition: 0.1s;
+    color: black;
+}
+
+.form-btn:active {
+    background-color: #e8a800;
+    
+}
+
+.google-btn button:hover {
+    background-color:#efefef ;
+    transition: 0.1s;
+}
+
+.google-btn button:active {
+    background-color: white ;
+}
+
+.label-email{
+    color: red;
+}
+
+
+.react-international-phone-country-selector{
+    width: 15%;
+    border: none;
+    border-radius: 8px;
+    margin-right: 4px;
+
+}
+
+
+.react-international-phone-country-selector button{
+    border: none;
+    height: 40px;
+    width: 50px;
+    border-radius: 100px;
+    background-color: transparent;
+}
+.react-international-phone-country-selector button:hover {
+    background-color: transparent;
+}
+
+.react-international-phone-country-selector input{
+    border: none;
+}
+
+
+.react-international-phone-input-container{
+    border: #666666 0.5px solid ;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 1px 10px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.react-international-phone-input-container ul {
+
+    
+
+}
+
+
+
+
+

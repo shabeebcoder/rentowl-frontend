@@ -8,11 +8,11 @@ import { Outlet } from 'react-router-dom'
 
 function Signup() {
   return (
-    <div className='sign-up-page'>
-      <img className=' cover-img w-full h-full absolute z-[-1] bg-cover object-cover  ' src={cover} alt="" />
+    <div className='sign-up-page max-w-[100%] max-h-[100vh]  '>
+      {/* <img className=' cover-img w-full h-[100vh] absolute z-[-1]  object-cover' src={cover} alt="" /> */}
 
         <div className="input-container bg-white
-        w-[45%] flex flex-col  items-center h-[100vh] overflow-hidden">
+        w-[45%] flex flex-col  items-center h-[100vh]">
           <Outlet/>
 
         {/* <SignInputs/> */}

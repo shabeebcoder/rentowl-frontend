@@ -6,6 +6,7 @@ import Google from '../assets/Google.svg'
 import VisibilityOffIcon from '@mui/icons-material/VisibilityOff';
 import { Label } from '@mui/icons-material';
 import Logo from '../assets/Logo.svg'
+import { Link } from 'react-router-dom';
 
 
 function SignInputs() {
@@ -125,7 +126,7 @@ function SignInputs() {
         </div>
 
       <p className=' mt-[10px] flex gap-[2px] text-[14px] font-[300] text-[#666666]'>Already have an account? 
-      <span className=' text-black font-[600] cursor-pointer hover:underline'>Login</span> 
+      <Link to = "login" className=' text-black font-[600] cursor-pointer hover:underline'>Login</Link> 
       
        </p>
      

@@ -4,6 +4,7 @@ import VisibilityOffIcon from '@mui/icons-material/VisibilityOff';
 import Button from './Button';
 import Google from '../assets/Google.svg'
 import Logo from '../assets/Logo.svg'
+import { Link } from 'react-router-dom';
 
 function LoginInputs() {
 
@@ -83,7 +84,7 @@ function LoginInputs() {
 </div>
 
 <p className=' mt-[10px] flex gap-[2px] text-[14px] font-[300] text-[#666666]'>Don't have an account? 
-<span className=' text-black font-[600] cursor-pointer hover:underline'>Sign up</span> 
+<Link to= '/' className=' text-black font-[600] cursor-pointer hover:underline'>Sign up</Link> 
 
 </p>
     </div>

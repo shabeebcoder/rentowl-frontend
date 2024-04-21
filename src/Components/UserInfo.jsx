@@ -19,7 +19,7 @@ function UserInfo() {
     }
   
   return (
-    <div className='flex flex-col gap-[10px] w-full items-center pt-[60px] h-full'>
+    <div className=' user-info flex flex-col gap-[10px] w-full items-center pt-[60px] h-full'>
         <img src={Logo} alt="Rent Owl Logo" className='w-[50%] mt-[20px]' />
          <h1 className='text-[24px] font-[400] text-[#666666]  '
        > Welcome to <span className=' font-bold text-black' >RentOwl</span></h1> 
@@ -38,7 +38,7 @@ function UserInfo() {
            id='firstName'
            name='firstName'
            onChange={(e)=> setFirstName(e.target.value)}
-           className=' outline-none'
+           className=' outline-[#0048ff71]'
           />
         </div>
 
@@ -52,7 +52,7 @@ function UserInfo() {
            id='lastName'
            name='lastName'
            onChange={(e)=> setLastName(e.target.value)}
-           className=' outline-none'
+           className=' outline-[#0048ff71]'
           />
 
           

@@ -31,7 +31,7 @@ function SignInputs() {
 
   return (
     <div className='flex flex-col gap-[10px] w-full items-center justify-center h-full'>
-         <img src={Logo} alt="Rent Owl Logo" className='w-[50%] mt-[50px]' />
+         <img src={Logo} alt="Rent Owl Logo" className=' logo-img w-[50%] mt-[50px]' />
 
        <h1 className='text-[24px] font-[400] text-[#666666]  '
        > Create an account</h1> 
@@ -48,7 +48,7 @@ function SignInputs() {
            id='email'
            name='email'
            onChange={(e)=> setEmail(e.target.value)}
-           className=' outline-none'
+          className=' outline-[#0048ff71]'
           />
         </div>
 
@@ -68,7 +68,7 @@ function SignInputs() {
           type={isShown ? "text" : "password"}
           value={password}
           onChange={(e)=> setPassword(e.target.value)}
-          className=' outline-none'
+               className=' outline-[#0048ff71]'
           />
         </div>
 
@@ -82,7 +82,7 @@ function SignInputs() {
           type={isShown ? "text" : "password"}
           value={confirmPassword}
           onChange={(e)=> setConfirmPassword(e.target.value)}
-          className={password === confirmPassword ? "outline-none" : "outline-[red]"}
+          className={password === confirmPassword ? "outline-[#0048ff71]" : "outline-[red]"}
           />
            
            <label className= 'w-full justify-between flex text-red-600' 

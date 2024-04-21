@@ -1,3 +1,45 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+
+
+@media (max-width : 600px) {
+
+    .cover-img{
+        display: none;
+    }
+
+    .input-container{
+        width: 100%;
+        
+    }
+
+    .logo-img{
+        margin-top: 0px;
+        width: 40%;
+    }
+
+    .input-container h1{
+        font-size: 20px;
+    }
+    
+    .user-info{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .user-info img {
+        margin-top: 0px;
+    }
+
+    
+}
+
+@media (max-width : 1200px){
+    /* .input-container{
+        width: 60%;
+    } */
+}
+
+

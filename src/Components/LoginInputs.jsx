@@ -36,7 +36,7 @@ function LoginInputs() {
            id='email'
            name='email'
            onChange={(e)=> setEmail(e.target.value)}
-           className=' outline-none'
+                  className=' outline-[#0048ff71]'
           />
         </div>
 
@@ -56,7 +56,7 @@ function LoginInputs() {
           type={isShown ? "text" : "password"}
           value={password}
           onChange={(e)=> setPassword(e.target.value)}
-          className=' outline-none'
+                 className=' outline-[#0048ff71]'
           />
         </div>
 

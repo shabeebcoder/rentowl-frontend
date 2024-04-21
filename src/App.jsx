@@ -10,7 +10,7 @@ function App() {
 
 
   return (
-    <>
+    <div>
     <Routes>
       <Route path='/' element = {<Signup/> } >
           <Route index element = {<SignInputs/>} />
@@ -19,7 +19,7 @@ function App() {
       </Route>
     </Routes>
 
-    </>
+    </div>
   )
 }
 

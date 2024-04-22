@@ -2,6 +2,12 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+html, body, #root {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+
 
 
 @media (max-width : 600px) {

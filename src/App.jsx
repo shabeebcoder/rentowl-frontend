@@ -18,7 +18,6 @@ function App() {
           <Route path='user_info' element = {<UserInfo/>} />
       </Route>
     </Routes>
-
     </div>
   )
 }
